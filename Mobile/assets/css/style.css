@@ -1,1 +1,49 @@
 /* Your styles here */
+body {
+  max-width: 500px;
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  width: 500px;
+  height: 130px;
+}
+
+header > img {
+  width: 180px;
+  padding-top: 36px;
+  padding-bottom: 40px;
+  padding-left: 156px;
+  padding-right: 160px;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 2em;
+}
+
+footer {
+  color: #c8e7f0;
+  background-color: #25a2c3;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer > h1 {
+  color: white;
+}
