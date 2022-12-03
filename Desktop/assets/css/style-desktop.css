@@ -143,13 +143,14 @@ em {
   font-size: 0.8em;
 }
 
-/* CSS instructions for the fourth part of the main */
+/* CSS instructions for the fourth part of the main corp */
 
 .s_four {
   width: 100%;
   background-color: white;
   padding: 130px 0;
-  margin-left: 100px;
+  display: inline-block;
+  text-align: center;
 }
 
 .box {
@@ -216,15 +217,25 @@ footer > h1 {
   text-align: center;
 }
 
-.contacts {
-  text-align: center;
+#contacts {
+  width: 360px;
+  margin: auto;
+}
+
+.contact {
+  padding-left: 60px;
+  text-align: left;
 }
 
 #hr {
   margin: 35px auto;
-  width: 250px;
+  width: 350px;
 }
 
 footer a {
   color: #c8e7f0;
+}
+
+.contact:last-of-type {
+  padding-bottom: 60px;
 }
