@@ -65,20 +65,28 @@ button {
   margin: 40px auto;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+button > a {
+  color: white;
+  text-decoration: none;
 }
 
 /* CSS instructions for the second section of the main */
 
 .s_two {
   width: 100%;
-  height: 800px;
+  height: 500px;
   background-color: white;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 180px;
 }
 
 #image {
   display: inline-block;
-  width: 500px;
-  margin: 150px 237px;
+  width: 590px;
 }
 
 #image > img {
@@ -87,9 +95,8 @@ button {
 
 #par_container {
   display: inline-block;
-  width: 700px;
-  margin-top: 70px;
-  padding-top: 20px;
+  width: 590px;
+  text-align: left;
 }
 
 #par_container > h2 {
@@ -109,14 +116,14 @@ button {
 .s_three {
   background-color: #f04c2f;
   color: white;
-  height: 500px;
+  height: 400px;
 }
 
 .s_three > h1 {
   color: white;
   padding: 35px 20px;
   font-size: 2.2em;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .s_three > p {
